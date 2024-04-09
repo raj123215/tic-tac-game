@@ -50,7 +50,8 @@ const enbBox = () =>{
   };
 
 const showWinner = (winner) =>{
-    msg.innerText = `Congratulation , winner is ${winner}` ;
+    msg.innerText = `Congratulation
+     winner is ${winner}` ;
     masgContenner.classList.remove("hide");
     disBox();
 };
